@@ -38,6 +38,8 @@ import { ServicesCarouselComponent } from './services-carousel/services-carousel
 import { DemoComponent } from './demo/demo.component';
 import { AllSectionsComponent } from './all-sections.component';
 
+import {BookingComponent} from '.././../booking/booking.component';
+
 import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
 
 
@@ -78,7 +80,8 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     TestimonialsCarouselComponent, 
     ServicesCarouselComponent, 
     DemoComponent,
-    AllSectionsComponent
+    AllSectionsComponent,
+    BookingComponent
   ],
   providers: [WINDOW_PROVIDERS]
 

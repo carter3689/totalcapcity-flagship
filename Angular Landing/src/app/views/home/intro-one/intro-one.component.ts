@@ -13,7 +13,7 @@ export class IntroOneComponent implements OnInit {
   ngOnInit() {
   }
   bookEvent()  {
-    this._router.navigate(['booking']);
+    this._router.navigate(['/booking']);
     console.log("This is being called")
   }
   getNGLanding() {
