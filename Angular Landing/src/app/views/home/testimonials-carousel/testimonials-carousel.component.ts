@@ -12,11 +12,10 @@ export class TestimonialsCarouselComponent implements OnInit {
   public testimonials = [{
     logo: 'http://via.placeholder.com/54x40',
     photo: 'http://via.placeholder.com/48x48',
-    text: `“I’ve tried using different softwares. The computer is not my strong side. 
-    There is excellent support behind DevEgret and people to walk you through it. 
-    If you have any questions they’ll go over that and explain to you how to do that. ”`,
+    text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
+    atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
     title: 'Jhone Doe',
-    subtitle: 'Product Manager'
+    subtitle: 'CEO'
   }, {
     logo: 'http://via.placeholder.com/54x40',
     photo: 'http://via.placeholder.com/48x48',
@@ -30,7 +29,7 @@ export class TestimonialsCarouselComponent implements OnInit {
     text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
     atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
     title: 'Jhone White',
-    subtitle: 'Software Engineer'
+    subtitle: 'CEO'
   }, {
     logo: 'http://via.placeholder.com/54x40',
     photo: 'http://via.placeholder.com/48x48',

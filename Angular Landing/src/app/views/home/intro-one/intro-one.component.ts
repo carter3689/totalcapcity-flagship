@@ -8,13 +8,13 @@ import { RouterModule, Routes, Router } from '@angular/router';
 })
 export class IntroOneComponent implements OnInit {
 
-  constructor(private _router: Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
   bookEvent()  {
-    this._router.navigate(['/booking']);
-    console.log("This is being called")
+    this.router.navigate(['/booking']);
+    console.log("This is being called");
   }
   getNGLanding() {
     window.open('');
