@@ -11,6 +11,8 @@ import { LandingFixService } from '../../shared/services/landing-fix.service';
   <app-cta></app-cta>
   <app-contact [backgroundGray]="true"></app-contact>
   <app-footer></app-footer>`
+
+  /*<app-pricings></app-pricings> -- -- This may be used later -- */
 })
 
 // Add in if needed -- <app-pricings></app-pricings>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule, Routes, Router } from '@angular/router';
 
 @Component({
   selector: 'app-intro',
@@ -7,12 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroOneComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-  buyEgret() {
-    window.open('https://themeforest.net/item/egret-angular-4-material-design-admin-template/20161805?ref=mh_rafi');
+  bookEvent()  {
+    this.router.navigate(['/booking']);
+    console.log("This is being called");
   }
   getNGLanding() {
     window.open('');

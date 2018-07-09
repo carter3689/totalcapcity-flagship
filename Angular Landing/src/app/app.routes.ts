@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 export const rootRouterConfig: Routes = [
   { 
     path: '', 
-    redirectTo: 'home/demos', 
+    redirectTo: 'home/one', 
     pathMatch: 'full' 
   },
   { 
@@ -13,6 +13,11 @@ export const rootRouterConfig: Routes = [
   { 
     path: '**', 
     redirectTo: 'home/one'
-  }
+  },
+  // {
+  //   path: 'booking',
+  //   redirectTo: '/booking',
+  //   pathMatch: 'prefix'
+  // }
 ];
 
