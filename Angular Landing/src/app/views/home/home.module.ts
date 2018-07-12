@@ -23,7 +23,7 @@ import { HomeRoutes } from "./home.routing";
 import { HomeOneComponent } from './home-one.component';
 import { HomeTwoComponent } from './home-two.component';
 import { HeaderComponent } from './header/header.component';
-import { IntroOneComponent } from './intro-one/intro-one.component';
+import { IntroOneComponent,DialogOverviewExampleDialog } from './intro-one/intro-one.component';
 import { IntroTwoComponent } from './intro-two/intro-two.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
@@ -41,6 +41,8 @@ import { AllSectionsComponent } from './all-sections.component';
 import {BookingComponent} from '.././../booking/booking.component';
 
 import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
+
+
 
 
 @NgModule({
@@ -64,6 +66,7 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     RouterModule.forChild(HomeRoutes)
   ],
   declarations: [
+    
     HomeOneComponent,
     HomeTwoComponent, 
     HeaderComponent, 
@@ -81,7 +84,7 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     ServicesCarouselComponent, 
     DemoComponent,
     AllSectionsComponent,
-    BookingComponent
+    BookingComponent,
   ],
   providers: [WINDOW_PROVIDERS]
 
