@@ -23,7 +23,7 @@ import { HomeRoutes } from "./home.routing";
 import { HomeOneComponent } from './home-one.component';
 import { HomeTwoComponent } from './home-two.component';
 import { HeaderComponent } from './header/header.component';
-import { IntroOneComponent,DialogOverviewExampleDialog } from './intro-one/intro-one.component';
+import { IntroOneComponent } from './intro-one/intro-one.component';
 import { IntroTwoComponent } from './intro-two/intro-two.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
@@ -38,10 +38,9 @@ import { ServicesCarouselComponent } from './services-carousel/services-carousel
 import { DemoComponent } from './demo/demo.component';
 import { AllSectionsComponent } from './all-sections.component';
 
-import {BookingComponent} from '.././../booking/booking.component';
+import {BookingComponent,DialogOverviewExample} from '.././../booking/booking.component';
 
 import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
-
 
 
 
@@ -84,8 +83,11 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     ServicesCarouselComponent, 
     DemoComponent,
     AllSectionsComponent,
-    BookingComponent,
+    BookingComponent
+    // DialogOverviewExample
+    
   ],
+  // entryComponents: [DialogOverviewExample],
   providers: [WINDOW_PROVIDERS]
 
 })
