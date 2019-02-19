@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Router } from '@angular/router';
@@ -12,6 +12,7 @@ import {
   MatInputModule,
   MatRippleModule,
   MatSlideToggleModule,
+  MatFormFieldModule,
   MatSnackBarModule
  } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -23,7 +24,7 @@ import { HomeRoutes } from "./home.routing";
 import { HomeOneComponent } from './home-one.component';
 import { HomeTwoComponent } from './home-two.component';
 import { HeaderComponent } from './header/header.component';
-import { IntroOneComponent } from './intro-one/intro-one.component';
+import { IntroOneComponent, DialogOverviewExampleDialog } from './intro-one/intro-one.component';
 import { IntroTwoComponent } from './intro-two/intro-two.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
@@ -56,6 +57,7 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     MatButtonModule,
     MatChipsModule,
     MatInputModule,
+    MatFormFieldModule,
     MatListModule,
     MatRippleModule,
     MatSlideToggleModule,
@@ -70,6 +72,7 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     HomeTwoComponent, 
     HeaderComponent, 
     IntroOneComponent,
+    DialogOverviewExampleDialog,
     IntroTwoComponent, 
     PortfolioComponent, 
     ServicesComponent, 
@@ -87,7 +90,11 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     // DialogOverviewExample
     
   ],
-  // entryComponents: [DialogOverviewExample],
+  entryComponents: [
+    IntroOneComponent,
+    DialogOverviewExampleDialog
+  ],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [WINDOW_PROVIDERS]
 
 })
