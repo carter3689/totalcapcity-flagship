@@ -32,6 +32,7 @@ export interface DialogData{
 })
 export class IntroOneComponent {
 
+<<<<<<< HEAD
   animal: string;
   name: string;
 
@@ -47,6 +48,15 @@ export class IntroOneComponent {
       console.log('The dialog was closed');
       this.animal = result;
     });
+=======
+  constructor(private router: Router) { }
+
+  ngOnInit() {
+  }
+  bookEvent()  {
+    this.router.navigate(['/booking']);
+    console.log("This is being called");
+>>>>>>> 0d45142bfad42be39ffb3666c82b3809bd8d4adb
   }
 
 }

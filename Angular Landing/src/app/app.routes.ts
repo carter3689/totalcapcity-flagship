@@ -14,10 +14,10 @@ export const rootRouterConfig: Routes = [
     path: '**', 
     redirectTo: 'home/one'
   },
-  {
-    path: 'booking',
-    redirectTo: '/booking',
-    pathMatch: 'prefix'
-  }
+  // {
+  //   path: 'booking',
+  //   redirectTo: '/booking',
+  //   pathMatch: 'prefix'
+  // }
 ];
 

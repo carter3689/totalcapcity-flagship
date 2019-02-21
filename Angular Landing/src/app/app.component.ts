@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+
+import {BookingComponent} from './booking/booking.component';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  constructor( ) { }
+  constructor( private router: Router ) { }
+
+  booking(){
+    this.router.navigate(['booking'])
+  }
 
   ngOnInit() {
     

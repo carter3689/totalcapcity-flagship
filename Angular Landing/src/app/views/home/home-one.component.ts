@@ -15,6 +15,8 @@ import { LandingFixService } from '../../shared/services/landing-fix.service';
 
   /*<app-pricings></app-pricings> -- -- This may be used later -- */
 })
+
+// Add in if needed -- <app-pricings></app-pricings>
 export class HomeOneComponent implements OnInit, OnDestroy {
   constructor(
     private fix: LandingFixService
