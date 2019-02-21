@@ -12,10 +12,8 @@ export class TestimonialsComponent implements OnInit {
   public testimonials = [{
     logo: 'assets/images/mock-logo-4.png',
     photo: 'http://via.placeholder.com/48x48',
-    text: `“I’ve tried using different softwares. The computer is not my strong side. 
-    There is excellent support behind DevEgret and people to walk you through it. 
-    If you have any questions they’ll go over that and explain to you how to do that. ”`,
-    title: 'Jhone Doe',
+    text: `“The Peach Cobbler was AMAZING!”`,
+    title: 'Tanya Turner Nelson',
     subtitle: 'Product Manager'
   }, {
     logo: 'assets/images/mock-logo-2.png',
