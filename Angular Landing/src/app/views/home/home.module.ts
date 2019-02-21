@@ -39,7 +39,7 @@ import { ServicesCarouselComponent } from './services-carousel/services-carousel
 import { DemoComponent } from './demo/demo.component';
 import { AllSectionsComponent } from './all-sections.component';
 
-import {BookingComponent,DialogOverviewExample} from '.././../booking/booking.component';
+// import {BookingComponent,DialogOverviewExample} from '.././../booking/booking.component';
 
 import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
 

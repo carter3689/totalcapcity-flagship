@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
-import {BookingComponent} from './booking/booking.component';
+// import {BookingComponent} from './booking/booking.component';
 
 
 
@@ -13,9 +13,9 @@ export class AppComponent implements OnInit {
 
   constructor( private router: Router ) { }
 
-  booking(){
-    this.router.navigate(['booking'])
-  }
+  // booking(){
+  //   this.router.navigate(['booking'])
+  // }
 
   ngOnInit() {
     
