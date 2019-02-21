@@ -1,60 +1,60 @@
-import { Component, OnInit,Inject } from '@angular/core';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+// import { Component, OnInit,Inject } from '@angular/core';
+// import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
-@Component({
-  selector: 'app-booking',
-  templateUrl: './booking.component.html',
-  styleUrls: ['./booking.component.scss']
-})
-export class BookingComponent implements OnInit {
+// @Component({
+//   selector: 'app-booking',
+//   templateUrl: './booking.component.html',
+//   styleUrls: ['./booking.component.scss']
+// })
+// export class BookingComponent implements OnInit {
 
-  constructor() { }
+//   constructor() { }
 
-  ngOnInit() {
-  }
-}
+//   ngOnInit() {
+//   }
+// }
 
-export interface DialogData {
-  animal: string;
-  name: string;
-}
+// export interface DialogData {
+//   animal: string;
+//   name: string;
+// }
 
-@Component({
-  selector: 'app-intro',
-  templateUrl: './booking.component.html',
-  styleUrls: ['./booking.component.scss']
-})
-export class DialogOverviewExample implements OnInit {
+// @Component({
+//   selector: 'app-intro',
+//   templateUrl: './booking.component.html',
+//   styleUrls: ['./booking.component.scss']
+// })
+// export class DialogOverviewExample implements OnInit {
 
-  ngOnInit() {
-  }
+//   ngOnInit() {
+//   }
 
-  animal: string;
-  name: string;
+//   animal: string;
+//   name: string;
 
-  constructor(public dialog: MatDialog) {}
+//   constructor(public dialog: MatDialog) {}
 
  
 
-}
+// }
 
-@Component({
-  selector: 'app-intro',
-  templateUrl: './booking.component.html',
-  styleUrls: ['./booking.component.scss']
-})
-export class DialogOverviewExampleDialog implements OnInit {
+// @Component({
+//   selector: 'app-intro',
+//   templateUrl: './booking.component.html',
+//   styleUrls: ['./booking.component.scss']
+// })
+// export class DialogOverviewExampleDialog implements OnInit {
 
-  ngOnInit() {
-  }
+//   ngOnInit() {
+//   }
 
-  constructor(
-    public dialogRef: MatDialogRef<DialogOverviewExampleDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+//   constructor(
+//     public dialogRef: MatDialogRef<DialogOverviewExampleDialog>,
+//     @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
+//   onNoClick(): void {
+//     this.dialogRef.close();
+//   }
 
-}
+// }
 

@@ -86,7 +86,7 @@ import { WINDOW_PROVIDERS } from '../../shared/helpers/window.helper';
     ServicesCarouselComponent, 
     DemoComponent,
     AllSectionsComponent,
-    BookingComponent
+    // BookingComponent
     // DialogOverviewExample
     
   ],

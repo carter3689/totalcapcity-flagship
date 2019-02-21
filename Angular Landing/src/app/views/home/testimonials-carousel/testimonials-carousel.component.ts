@@ -12,16 +12,15 @@ export class TestimonialsCarouselComponent implements OnInit {
   public testimonials = [{
     logo: 'http://via.placeholder.com/54x40',
     photo: 'http://via.placeholder.com/48x48',
-<<<<<<< HEAD
+
     text: `“The Peach Cobbler was AMAZING!”`,
     title: 'Tanya Turner Nelson',
-    subtitle: ''
-=======
+    subtitle: '',
+  },{
     text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi voluptas vero iusto fuga quos totam eius,
     atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
     title: 'Jhone Doe',
     subtitle: 'CEO'
->>>>>>> 0d45142bfad42be39ffb3666c82b3809bd8d4adb
   }, {
     logo: 'http://via.placeholder.com/54x40',
     photo: 'http://via.placeholder.com/48x48',
